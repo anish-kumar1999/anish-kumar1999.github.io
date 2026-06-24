@@ -118,12 +118,12 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'anish-kumar1999',
+    linkedin: 'https://www.linkedin.com/in/anish-kumar-b932611a9/',
     x: '',
     mastodon: '',
     researchGate: '',
-    facebook: '',
-    instagram: '',
+    facebook: 'https://www.facebook.com/urzanish',
+    instagram: 'https://www.instagram.com/urz_anish/',
     reddit: '',
     threads: '',
     youtube: '',
@@ -134,7 +134,7 @@ const CONFIG = {
     dev: '',
     stackoverflow: '',
     discord: '',
-    telegram: '',
+    telegram: 'https://urz_anish.t.me',
     website: '',
     phone: '+918054877087',
     email: 'akbhuria0786@gmail.com',
@@ -194,13 +194,6 @@ const CONFIG = {
     'Bitbucket',
   ],
   experiences: [
-    {
-      company: 'Blue Cloud Softech Solutions Limited',
-      position: 'Software Engineer II',
-      from: 'January 2026',
-      to: 'Present',
-      companyLink: 'https://www.bluecloudsoftech.com/',
-    },
     {
       company: 'Freelance Full Stack Engineer',
       position: 'Full-Stack Developer & Consultant',
