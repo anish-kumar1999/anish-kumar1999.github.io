@@ -2,182 +2,210 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'anish-kumar1999', // Your GitHub username
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
-  base: '/gitprofile/',
+  base: '/', // Since your repo is anish-kumar1999.github.io
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'automatic',
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated',
+        limit: 10,
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false,
+          projects: [], // Add repos to exclude if needed
         },
       },
       manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [],
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Featured Projects',
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'HCFX - Foreign Exchange Portal',
+          description: 'Foreign exchange portal built with WordPress, integrated with Salesforce for user onboarding and API-driven data synchronization.',
+          imageUrl: '',
+          link: '',
         },
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'Chartprime - Subscription Management',
+          description: 'Integrated Chargebee subscription management with WordPress. Built custom subscription UI for plan and add-on management beyond default capabilities.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'Nory - HubSpot UI Extension',
+          description: 'Custom HubSpot UI Extension built with React. Serverless backend functions in Node.js within HubSpot\'s ecosystem for workflow automation.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'Nordics NG - Serverless Onboarding',
+          description: 'Serverless onboarding workflow using AWS Lambda triggered by Webflow webhooks. Automated customer creation, subscription setup across Chargebee and Norwegian banking systems.',
+          imageUrl: '',
+          link: '',
+        },
+        {
+          title: 'RAG-Based Proposal Generation System',
+          description: 'In-house RAG system leveraging LLMs, built with Python (FastAPI), Next.js, LangChain, OpenAI APIs, and vector databases including ChromaDB and OpenSearch.',
+          imageUrl: '',
+          link: '',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: {
+    title: 'Anish Kumar - Full-Stack Developer | SaaS Builder | AI Chatbots & Automation',
+    description: 'Full-Stack Developer with 5 years experience in PHP, Laravel, Node.js, React.js, Python, AI/LLM, and cloud integrations. Building scalable web apps, APIs, and automation solutions.',
+    imageURL: '',
+  },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'anish-kumar1999', // Update with your LinkedIn username
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: '',
+    website: '',
+    phone: '+918054877087',
+    email: 'akbhuria0786@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Upload your PDF to the repo and add path here
   },
   skills: [
+    // Backend Technologies
     'PHP',
     'Laravel',
-    'JavaScript',
-    'React.js',
+    'CodeIgniter',
     'Node.js',
-    'Nest.js',
+    'Python',
+    'FastAPI',
+    'Core PHP',
+    'REST APIs',
+    'Webhooks',
+    'Sequelize',
+    'AWS Lambda',
+    'Serverless Architecture',
+    
+    // Frontend Technologies
+    'HTML5',
+    'CSS3',
+    'JavaScript',
+    'jQuery',
+    'AJAX',
+    'React.js',
+    'Next.js',
+    'Bootstrap',
+    
+    // CMS & Platforms
+    'WordPress',
+    'Shopify',
+    'Webflow',
+    'Headless CMS',
+    
+    // Databases
     'MySQL',
-    'PostgreSQL',
+    'MongoDB',
+    'VectorDB',
+    'ChromaDB',
+    'OpenSearch',
+    
+    // AI & LLM
+    'LLM',
+    'LangChain',
+    'RAG Systems',
+    'OpenAI APIs',
+    
+    // CRM & Integrations
+    'HubSpot CRM',
+    'HubSpot Developer',
+    'GoHighLevel',
+    'Salesforce',
+    'Chargebee',
+    'Stripe',
+    'Payment Gateways',
+    
+    // DevOps & Hosting
+    'AWS S3',
+    'Cloudways',
+    'DigitalOcean',
+    'Hostinger',
+    'GoDaddy',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'GitHub',
+    'Bitbucket',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Techglock Software Solutions',
+      position: 'Web Developer',
+      from: 'November 2021',
+      to: 'November 2025',
+      companyLink: 'https://techglock.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Amrsoftec',
+      position: 'Junior PHP Developer',
+      from: 'July 2021',
+      to: 'October 2021',
+      companyLink: '',
+    },
+    {
+      company: 'Amrsoftec',
+      position: 'PHP Intern',
+      from: 'March 2021',
+      to: 'June 2021',
+      companyLink: '',
     },
   ],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    // Add any certifications you have
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Chandigarh University',
+      degree: 'Master of Computer Applications (MCA)',
+      from: '2021',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Guru Nanak Dev University (GNDU)',
+      degree: 'Bachelor of Computer Applications (BCA)',
+      from: '2017',
+      to: '2020',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
-  // Display articles from your medium or dev account. (Optional)
+  publications: [],
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'dev',
+    username: '', // Leave empty to hide blog section
+    limit: 2,
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
+    defaultTheme: 'dark',
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -217,14 +245,11 @@ const CONFIG = {
       'procyon',
     ],
   },
-
-  // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
-
   enablePWA: true,
 };
 
