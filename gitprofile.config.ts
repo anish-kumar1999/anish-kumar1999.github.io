@@ -2,9 +2,9 @@
 
 const CONFIG = {
   github: {
-    username: 'anish-kumar1999', // Your GitHub username
+    username: 'anish-kumar1999',
   },
-  base: '/', // Since your repo is anish-kumar1999.github.io
+  base: '/',
   projects: {
     github: {
       display: true,
@@ -15,7 +15,7 @@ const CONFIG = {
         limit: 10,
         exclude: {
           forks: false,
-          projects: [], // Add repos to exclude if needed
+          projects: [],
         },
       },
       manual: {
@@ -25,6 +25,54 @@ const CONFIG = {
     external: {
       header: 'Featured Projects',
       projects: [
+        {
+          title: 'EduGenie Labs - LMS Platform',
+          description: 'A fully-featured Laravel-based Learning Management System. I am responsible for system modifications, management, and enhancing the platform for instructors and students.',
+          imageUrl: '',
+          link: 'https://edugenielabs.com/',
+        },
+        {
+          title: 'PMJ Retail - AI-Powered Store Management',
+          description: 'An internal system for PMJ Jewels that leverages AI intelligence to manage store cameras and operations. I worked on the CRM and backend development for this platform.',
+          imageUrl: '',
+          link: 'https://retail.bcss.ai/admin',
+        },
+        {
+          title: 'WedUnReal - Wedding Planning Platform',
+          description: 'A comprehensive platform for booking hotel rooms, private charters, and connecting with wedding vendors like photographers, makeup artists, and decorators.',
+          imageUrl: '',
+          link: 'https://wedunreal.com/',
+        },
+        {
+          title: 'Whizlabs - EdTech Platform',
+          description: 'Contributed to this online learning platform, helping build and enhance features for a seamless educational experience.',
+          imageUrl: '',
+          link: 'https://www.whizlabs.com/',
+        },
+        {
+          title: 'Nosho - E-commerce Platform',
+          description: 'Worked on this e-commerce solution, focusing on backend integrations and performance optimization.',
+          imageUrl: '',
+          link: 'https://www.nosho.app/',
+        },
+        {
+          title: 'Donatuz - Donation Platform',
+          description: 'Contributed to the development of this donation platform, building and integrating core features.',
+          imageUrl: '',
+          link: 'https://www.donatuz.com/',
+        },
+        {
+          title: 'DraughtGuardian - IoT Solution',
+          description: 'Worked on this IoT project, integrating web technologies with hardware solutions for monitoring and management.',
+          imageUrl: '',
+          link: 'https://site.draughtguardian.com/',
+        },
+        {
+          title: 'FashionMingle - Social Fashion Platform',
+          description: 'Developed features for this social networking platform focused on fashion, connecting designers, brands, and enthusiasts.',
+          imageUrl: '',
+          link: 'https://fashionmingle.com/',
+        },
         {
           title: 'HCFX - Foreign Exchange Portal',
           description: 'Foreign exchange portal built with WordPress, integrated with Salesforce for user onboarding and API-driven data synchronization.',
@@ -55,16 +103,22 @@ const CONFIG = {
           imageUrl: '',
           link: '',
         },
+        {
+          title: 'RikaAmrit - Internal CRM',
+          description: 'Developed and managed an internal CRM system for RikaAmrit to streamline business processes and customer management.',
+          imageUrl: '',
+          link: '',
+        },
       ],
     },
   },
   seo: {
-    title: 'Anish Kumar - Full-Stack Developer | SaaS Builder | AI Chatbots & Automation',
-    description: 'Full-Stack Developer with 5 years experience in PHP, Laravel, Node.js, React.js, Python, AI/LLM, and cloud integrations. Building scalable web apps, APIs, and automation solutions.',
+    title: 'Anish Kumar - Software Engineer II | Full-Stack Developer | SaaS Builder & AI Enthusiast',
+    description: 'Software Engineer II at Blue Cloud Softech. Full-Stack Developer with 5+ years experience in PHP, Laravel, Node.js, React.js, Python, AI/LLM, and cloud integrations.',
     imageURL: '',
   },
   social: {
-    linkedin: 'anish-kumar1999', // Update with your LinkedIn username
+    linkedin: 'anish-kumar1999',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -86,10 +140,9 @@ const CONFIG = {
     email: 'akbhuria0786@gmail.com',
   },
   resume: {
-    fileUrl: '', // Upload your PDF to the repo and add path here
+    fileUrl: '', 
   },
   skills: [
-    // Backend Technologies
     'PHP',
     'Laravel',
     'CodeIgniter',
@@ -102,8 +155,6 @@ const CONFIG = {
     'Sequelize',
     'AWS Lambda',
     'Serverless Architecture',
-    
-    // Frontend Technologies
     'HTML5',
     'CSS3',
     'JavaScript',
@@ -112,27 +163,20 @@ const CONFIG = {
     'React.js',
     'Next.js',
     'Bootstrap',
-    
-    // CMS & Platforms
+    'Vue.js',
     'WordPress',
     'Shopify',
     'Webflow',
     'Headless CMS',
-    
-    // Databases
     'MySQL',
     'MongoDB',
     'VectorDB',
     'ChromaDB',
     'OpenSearch',
-    
-    // AI & LLM
     'LLM',
     'LangChain',
     'RAG Systems',
     'OpenAI APIs',
-    
-    // CRM & Integrations
     'HubSpot CRM',
     'HubSpot Developer',
     'GoHighLevel',
@@ -140,8 +184,6 @@ const CONFIG = {
     'Chargebee',
     'Stripe',
     'Payment Gateways',
-    
-    // DevOps & Hosting
     'AWS S3',
     'Cloudways',
     'DigitalOcean',
@@ -153,6 +195,20 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Blue Cloud Softech Solutions Limited',
+      position: 'Software Engineer II',
+      from: 'January 2026',
+      to: 'Present',
+      companyLink: 'https://www.bluecloudsoftech.com/',
+    },
+    {
+      company: 'Freelance Full Stack Engineer',
+      position: 'Full-Stack Developer & Consultant',
+      from: 'August 2020',
+      to: 'Present',
+      companyLink: '',
+    },
+    {
       company: 'Techglock Software Solutions',
       position: 'Web Developer',
       from: 'November 2021',
@@ -160,23 +216,21 @@ const CONFIG = {
       companyLink: 'https://techglock.com',
     },
     {
-      company: 'Amrsoftec',
-      position: 'Junior PHP Developer',
+      company: 'AMR Softec',
+      position: 'PHP Web Developer',
       from: 'July 2021',
       to: 'October 2021',
       companyLink: '',
     },
     {
-      company: 'Amrsoftec',
-      position: 'PHP Intern',
+      company: 'AMR Softec',
+      position: 'PHP Web Developer Intern',
       from: 'March 2021',
       to: 'June 2021',
       companyLink: '',
     },
   ],
-  certifications: [
-    // Add any certifications you have
-  ],
+  certifications: [],
   educations: [
     {
       institution: 'Chandigarh University',
@@ -194,7 +248,7 @@ const CONFIG = {
   publications: [],
   blog: {
     source: 'dev',
-    username: '', // Leave empty to hide blog section
+    username: '',
     limit: 2,
   },
   googleAnalytics: {
@@ -246,7 +300,7 @@ const CONFIG = {
     ],
   },
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://anish-kumar1999.github.io/"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
